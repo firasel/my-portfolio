@@ -3,6 +3,9 @@ body{
     padding: 0;
     font-family:"poppins",sans-serif;
 }
+section{
+    padding-bottom: 100px;
+}
 .top-banner{
     width: 100%;
     min-height: 500px;
@@ -14,10 +17,12 @@ body{
     margin-left:5%;
     padding-left:2%;
     float:left;
-    padding-bottom: 100px;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 35px;
 }
 h3{
     font-size: 25px;
@@ -54,4 +59,42 @@ p{
     background-image: url(image/background/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right center;
+    padding-bottom: 100px;
+}
+.experience{
+    width: 100%;
+    min-height:500px;
+    background-image: url("image/background/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left center;
+}
+.experience div{
+    box-shadow: 5px 5px 30px rgb(27, 27, 27);
+    height:400px;
+    border-left: 7px solid;
+}
+#fullstack-dev{
+    border-image: linear-gradient(180deg, salmon, tomato);
+    border-image-slice: 1;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+
+}
+#baby-dev{
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+    border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -ms-border-radius: 0px 5px 5px 0px;
+    -o-border-radius: 0px 5px 5px 0px;
+
+}
+footer{
+    text-align: center;
+    color:dimgray;
+    padding: 15px 0;
 }
